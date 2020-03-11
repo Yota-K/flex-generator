@@ -1,4 +1,4 @@
-export const propertyObj = [
+const propertyObj = [
     {
         flex: 'flex',
         inlineFlex: 'inline-flex',
