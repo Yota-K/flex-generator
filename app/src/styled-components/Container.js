@@ -12,7 +12,5 @@ export const PropertyContainer = styled.div`
 
 export const InfoContainer = styled.div`
     ${Base}
-    justify-content: center;
-    width: 80%;
-    margin: 0 10%;
+    justify-content: space-around;
 `
