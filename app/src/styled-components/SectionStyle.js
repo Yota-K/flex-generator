@@ -33,6 +33,7 @@ export const PreviewSection = styled.section`
     padding: 0;
     .MuiFormControl-root {
         margin: 20px 0;
+        display: block;
         .MuiInputBase-root {
             width: 120px;
         }
