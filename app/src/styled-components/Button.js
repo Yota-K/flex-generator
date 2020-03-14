@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { device } from './MediaQuery';
 
 const green = '#009688';
 
@@ -22,6 +23,10 @@ export const DialogButton = styled.a`
         background: ${green};
         color: #fff;
         transition: all 0.4s;
+    }
+    @media ${device.mobileS} {
+        width: 36%;
+        margin: 14px 2%;
     }
 `
 
