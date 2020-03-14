@@ -21,7 +21,7 @@ const PropertyInfo = () => {
         const target = e.target;
         const fileName = target.getAttribute('data-name');
 
-        axios.get(`../markdown/${fileName}.md`)
+        axios.get(`./markdown/${fileName}.md`)
         .then(res => {
             marked.setOptions({
                 headerIds: false,
