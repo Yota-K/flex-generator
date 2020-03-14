@@ -11,7 +11,7 @@ const App = () => {
     return (
         <>
             <Header />
-            <Container fixed>
+            <Container component="main" fixed>
                 <Property />
             </Container>
             <Footer />
