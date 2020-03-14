@@ -29,6 +29,7 @@ export const Content = styled.div`
         border-radius: 4px;
         margin-bottom: 50px;
         padding: 12px;
+        overflow-x: scroll;
         code {
             color:#2df335;
             .hljs-selector-id {
