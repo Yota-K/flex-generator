@@ -8,6 +8,7 @@ import MenuItem from '@material-ui/core/MenuItem';
 import PropertyInfo from '../components/PropertyInfo/index.js';
 import Preview from '../components/Preview/index.js';
 import Code from '../components/Code';
+import SocialIcons from '../components/SocialIcons';
 
 import { PropertySection } from '../styled-components/SectionStyle';
 import { PropertyContainer } from '../styled-components/Container';
@@ -137,6 +138,7 @@ const Property = () => {
             alignItems={state.alignItems}
             alignContent={state.alignContent}
         />
+        <SocialIcons />
         </>
     )
 }
