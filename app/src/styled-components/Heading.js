@@ -6,8 +6,8 @@ export const H1 =styled.h1`
 `
 
 export const H2 = styled.h2`
-    margin: 20px 0;
+    margin: 40px 0 20px;
     font-size: 28px;
     font-weight: 500;
-    color:  #504e4;
+    color:  #504e44;
 `

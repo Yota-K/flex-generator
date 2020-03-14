@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { device } from './MediaQuery';
 
 const green = '#009688';
 
@@ -11,12 +12,18 @@ export const Content = styled.div`
         border-radius: 3px;
         font-size: 22px;
         font-weight: normal;
+        @media ${device.mobileM} {
+            font-size: 18px;
+        }
     }
     h3 {
         margin: 12px 0;
         font-size: 18px;
         font-weight: normal;
         border-bottom: 2px solid ${green};
+        @media ${device.mobileM} {
+            font-size: 14px;
+        }
     }
     p {
         line-height: 190%;

@@ -19,5 +19,6 @@ export const FooterBar = styled.footer`
     text-align: center;
     .copyright {
         font-weight: 600;
+        font-size: 12px;
     }
 `;
