@@ -10,7 +10,7 @@ const propertyObj = [
         columnReverse: 'column-reverse',
     },
     {
-        nowRap: 'now-rap',
+        nowRap: 'nowrap',
         wrap: 'wrap',
         wrapReverse: 'wrap-reverse',
     },

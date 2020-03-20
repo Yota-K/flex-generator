@@ -27,7 +27,7 @@ const Property = () => {
     const [state, setState] = React.useState({
         flex: 'flex',
         flexDirection: 'row',
-        flexWrap: 'now-rap',
+        flexWrap: 'nowrap',
         justifyContent: 'flex-start',
         alignItems: 'normal',
         alignContent: 'normal',
