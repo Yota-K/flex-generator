@@ -24,4 +24,9 @@ export const FlexPreview = styled.div`
         font-size: 18px;
         font-weight: bold;
     }
-`
+`;
+
+export const EditArea = styled.div`
+    display: flex;
+    justify-content: space-between;
+`;

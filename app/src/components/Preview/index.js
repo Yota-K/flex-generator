@@ -15,11 +15,21 @@ const Preview = ({
         alignContent,
     }) => {
     const [width, setWidth] = React.useState(100);
-    const numberAry = [1,2,3,4,5,6];
+    const [numberAry, setNumberAry] = React.useState({
+        numbers: [1,2,3,4,5,6]
+    });
+
+    const numbers = numberAry.numbers;
 
     return (
         <PreviewSection>
             <H2>Preview</H2>
+            <PreviewEdit 
+                width={width}
+                setWidth={setWidth}
+                numberAry={numberAry}
+                setNumberAry={setNumberAry}
+            />
             <FlexPreview
                 flex={flex}
                 width={width}
@@ -29,14 +39,10 @@ const Preview = ({
                 alignItems={alignItems}
                 alignContent={alignContent}
             >
-                {numberAry.map(num => (
+                {numbers.map(num => (
                     <div key={num}>{num}</div>
                 ))}
             </FlexPreview>
-            <PreviewEdit 
-                width={width}
-                setWidth={setWidth}
-            />
         </PreviewSection>
     )
 }
