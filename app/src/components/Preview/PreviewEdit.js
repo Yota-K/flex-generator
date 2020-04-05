@@ -30,7 +30,7 @@ const PreviewEdit = ({
     const aryCopy = numberAry.numbers.slice();
 
     const addSquare = () => {
-        let last = numberAry.numbers.slice(-1)[0];
+        let last = aryCopy.slice(-1)[0];
         last === 15 ? setIncrement(true) : setDecrement(false);
         setNumberAry({
             numbers: [...aryCopy, last + 1]
