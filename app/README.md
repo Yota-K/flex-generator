@@ -5,3 +5,5 @@
 `docker-compose build`
 
 `docker-compose up -d`
+
+`docker-compose run --rm flex-generator sh -c 'npm install'`
