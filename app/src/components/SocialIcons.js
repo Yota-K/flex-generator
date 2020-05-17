@@ -5,7 +5,7 @@ const SocialIcons = () => {
     return (
         <>
             <SocialIcon
-                url="https://twitter.com/intent/tweet?url=https://yota-k.github.io/flex-generator/hashtags=FlexGenerator"
+                url="https://twitter.com/intent/tweet?url=https://yota-k.github.io/flex-generator/"
                 network="twitter"
             />
         </>
